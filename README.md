@@ -30,7 +30,7 @@ Adding a new Customer
 ![Add Customers](https://github.com/srikanthramamurthy/CustomerManagement/blob/main/Screen%20Shots/AddCustomer.png)
 
 Viewing Conflicts
-![ViewConflict](https://github.com/srikanthramamurthy/CustomerManagement/blob/main/Screen%20Shots/ResolveConflicts.png
+![ViewConflict](https://github.com/srikanthramamurthy/CustomerManagement/blob/main/Screen%20Shots/ResolveConflicts.png)
 
 Editing Conflicts
 ![EditConflict](https://github.com/srikanthramamurthy/CustomerManagement/blob/main/Screen%20Shots/EditConflicts.png)
