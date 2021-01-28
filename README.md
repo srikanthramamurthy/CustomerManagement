@@ -10,7 +10,7 @@ This application enables users to:
 * React
 * SQL Server
 
-## TO run the code:
+## To run the code:
 
 * load project for API and UI
 * replace to connection string to a valid connection string
@@ -22,3 +22,6 @@ This application enables users to:
 
 * write more unit tests for both frontend and API
 
+## Screen shots
+![GitHub Logo](Screen Shots/AddCustomer.png)
+Format: ![Alt Text](url)
