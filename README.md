@@ -23,5 +23,6 @@ This application enables users to:
 * write more unit tests for both frontend and API
 
 ## Screen shots
-![GitHub Logo](Screen Shots/AddCustomer.png)
-Format: ![Alt Text](url)
+![Home](Screen Shots/AllCustomer.png)
+![Add Customers](Screen Shots/AddCustomer.png)
+ 
