@@ -23,6 +23,15 @@ This application enables users to:
 * write more unit tests for both frontend and API
 
 ## Screen shots
-![Home](Screen Shots/AllCustomer.png)
+Home
+![Home](https://github.com/srikanthramamurthy/CustomerManagement/blob/main/Screen%20Shots/AllCustomers.png)
+
+Adding a new Customer
 ![Add Customers](https://github.com/srikanthramamurthy/CustomerManagement/blob/main/Screen%20Shots/AddCustomer.png)
+
+Viewing Conflicts
+![ViewConflict](https://github.com/srikanthramamurthy/CustomerManagement/blob/main/Screen%20Shots/ResolveConflicts.png
+
+Editing Conflicts
+![EditConflict](https://github.com/srikanthramamurthy/CustomerManagement/blob/main/Screen%20Shots/EditConflicts.png)
  
