@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Json" Version="2.2.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="5.0.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.2" />
+      <PackageReference Include="Microsoft.OpenApi" Version="1.2.3" />
+      <PackageReference Include="Serilog" Version="2.10.1-dev-01265" />
+      <PackageReference Include="Serilog.AspNetCore" Version="3.4.1-dev-00188" />
+      <PackageReference Include="Serilog.Extensions.Logging" Version="3.0.2-dev-10284" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CustomerManagement.Data\CustomerManagement.Data.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="appsettings.json" />
+      <Content Include="appsettings.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="appsettings.Development.json" />
+      <Content Include="appsettings.Development.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Logs" />
+    </ItemGroup>
+
+</Project>

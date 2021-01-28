@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "b19311ec-badb-4d76-849a-bbaed48e82fe",
+		"name": "CustomerManagement",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "customer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n      \n        \"firstName\": \"Srikanth2\",\n        \"lastName\": \"Ramamurthy2\",\n        \"email\": \"sri2@gma.com\",\n        \"phoneNumber\": \"04684409792\"\n    }"
+				},
+				"url": {
+					"raw": "{{BaseURL}}customer",
+					"host": [
+						"{{BaseURL}}customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "customer",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{BaseURL}}customer",
+					"host": [
+						"{{BaseURL}}customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "customer/duplicate",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{BaseURL}}customer/duplicate",
+					"host": [
+						"{{BaseURL}}customer"
+					],
+					"path": [
+						"duplicate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "customer",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"id\": 28,\n        \"firstName\": \"Srikanthwe\",\n        \"lastName\": \"Ramamurthy6\",\n        \"email\": \"sri@gma.com\",\n        \"phoneNumber\": \"00000\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseURL}}customer",
+					"host": [
+						"{{BaseURL}}customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "customer",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{BaseURL}}customer/1",
+					"host": [
+						"{{BaseURL}}customer"
+					],
+					"path": [
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "customer/resolvename",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"id\": 28,\n        \"firstName\": \"Srikanth6\",\n        \"lastName\": \"Ramamurthy6\",\n        \"email\": \"sri@gma.com\",\n        \"phoneNumber\": \"00000\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseURL}}customer/resolvename",
+					"host": [
+						"{{BaseURL}}customer"
+					],
+					"path": [
+						"resolvename"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

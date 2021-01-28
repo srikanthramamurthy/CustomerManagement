@@ -1,0 +1,12 @@
+/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Data/bin/Debug/netcoreapp3.1/CustomerManagement.Data.deps.json
+/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Data/bin/Debug/netcoreapp3.1/CustomerManagement.Data.runtimeconfig.json
+/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Data/bin/Debug/netcoreapp3.1/CustomerManagement.Data.runtimeconfig.dev.json
+/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Data/bin/Debug/netcoreapp3.1/CustomerManagement.Data.dll
+/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Data/bin/Debug/netcoreapp3.1/CustomerManagement.Data.pdb
+/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Data/obj/Debug/netcoreapp3.1/CustomerManagement.Data.csprojAssemblyReference.cache
+/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Data/obj/Debug/netcoreapp3.1/CustomerManagement.Data.AssemblyInfoInputs.cache
+/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Data/obj/Debug/netcoreapp3.1/CustomerManagement.Data.AssemblyInfo.cs
+/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Data/obj/Debug/netcoreapp3.1/CustomerManagement.Data.csproj.CoreCompileInputs.cache
+/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Data/obj/Debug/netcoreapp3.1/CustomerManagement.Data.dll
+/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Data/obj/Debug/netcoreapp3.1/CustomerManagement.Data.pdb
+/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Data/obj/Debug/netcoreapp3.1/CustomerManagement.Data.genruntimeconfig.cache

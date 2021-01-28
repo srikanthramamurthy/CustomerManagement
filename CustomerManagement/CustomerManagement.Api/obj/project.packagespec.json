@@ -1,0 +1,107 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Api/CustomerManagement.Api.csproj",
+    "projectName": "CustomerManagement.Api",
+    "projectPath": "/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Api/CustomerManagement.Api.csproj",
+    "outputPath": "/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Api/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Data/CustomerManagement.Data.csproj": {
+            "projectPath": "/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Data/CustomerManagement.Data.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.AspNetCore.Hosting": {
+          "target": "Package",
+          "version": "[2.2.7, )"
+        },
+        "Microsoft.AspNetCore.Mvc.Formatters.Json": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[5.0.2, )"
+        },
+        "Microsoft.EntityFrameworkCore.Abstractions": {
+          "target": "Package",
+          "version": "[5.0.2, )"
+        },
+        "Microsoft.EntityFrameworkCore.Design": {
+          "target": "Package",
+          "version": "[5.0.2, )"
+        },
+        "Microsoft.EntityFrameworkCore.Relational": {
+          "target": "Package",
+          "version": "[5.0.2, )"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer": {
+          "target": "Package",
+          "version": "[5.0.2, )"
+        },
+        "Microsoft.EntityFrameworkCore.Tools": {
+          "target": "Package",
+          "version": "[5.0.2, )"
+        },
+        "Microsoft.OpenApi": {
+          "target": "Package",
+          "version": "[1.2.3, )"
+        },
+        "Serilog": {
+          "target": "Package",
+          "version": "[2.10.1-dev-01265, )"
+        },
+        "Serilog.AspNetCore": {
+          "target": "Package",
+          "version": "[3.4.1-dev-00188, )"
+        },
+        "Serilog.Extensions.Logging": {
+          "target": "Package",
+          "version": "[3.0.2-dev-10284, )"
+        },
+        "Swashbuckle.AspNetCore": {
+          "target": "Package",
+          "version": "[5.6.3, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+    }
+  }
+}

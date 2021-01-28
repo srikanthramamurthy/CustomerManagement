@@ -1,0 +1,83 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Api.Unit.Tests/CustomerManagement.Api.Unit.Tests.csproj",
+    "projectName": "CustomerManagement.Api.Unit.Tests",
+    "projectPath": "/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Api.Unit.Tests/CustomerManagement.Api.Unit.Tests.csproj",
+    "outputPath": "/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Api.Unit.Tests/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Api/CustomerManagement.Api.csproj": {
+            "projectPath": "/Users/srikanthramamurthy/Code/Private projects/CustomerManagement/CustomerManagement.Api/CustomerManagement.Api.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.4.0, )"
+        },
+        "Moq": {
+          "target": "Package",
+          "version": "[4.16.0, )"
+        },
+        "NUnit3TestAdapter": {
+          "target": "Package",
+          "version": "[3.15.1, )"
+        },
+        "nunit": {
+          "target": "Package",
+          "version": "[3.12.0, )"
+        },
+        "xunit.assert": {
+          "target": "Package",
+          "version": "[2.4.1, )"
+        },
+        "xunit.core": {
+          "target": "Package",
+          "version": "[2.2.0-beta4-build3444, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.4.3, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+    }
+  }
+}
