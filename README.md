@@ -24,5 +24,5 @@ This application enables users to:
 
 ## Screen shots
 ![Home](Screen Shots/AllCustomer.png)
-![Add Customers](Screen Shots/AddCustomer.png)
+![Add Customers](https://github.com/srikanthramamurthy/CustomerManagement/blob/main/Screen%20Shots/AddCustomer.png)
  
